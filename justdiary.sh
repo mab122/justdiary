@@ -1,7 +1,6 @@
 #!/bin/bash
 DIARY_PATH="~/Diary/"
 cd $DIARY_PATH
-exit
 if [[ "$1" == "e" ]] || [[ "$1" == "edit" ]]
 then
 	if  date -d "$2" | grep 'invalid' -q -v
